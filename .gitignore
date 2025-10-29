@@ -1,2 +1,9 @@
 # Entorno virtual
 venv/
+#Archivos __pycache__ proyecto 5
+5_Automated_weekly_report/**/__pycache__/
+
+# Logs y reportes (mantener el repo limpio)
+**/logs/
+**/reports/
+*.log

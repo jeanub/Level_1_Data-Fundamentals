@@ -1,25 +1,26 @@
 # 🔍 Análisis y limpieza
-pandas>=2.1.0
-numpy>=1.24
-openpyxl>=3.1.2
-pyjanitor>=0.23.0
+pandas>=2.1.0           # Manipulación de datos tabulares
+numpy>=1.24             # Operaciones numéricas
+openpyxl>=3.1.2         # Lectura/escritura de archivos Excel
+pyjanitor>=0.23.0       # Limpieza avanzada y encadenamiento
 
 # 📊 Visualización y estadística
-matplotlib>=3.8.0
-seaborn>=0.12.2
-scipy>=1.11.2
+matplotlib>=3.8.0       # Gráficos básicos y personalizados
+seaborn>=0.12.2         # Visualización estadística
+scipy>=1.11.2           # Estadística descriptiva y análisis
 
 # 📄 Automatización y reportes
-reportlab>=4.0.4
-python-docx>=1.1.0
-schedule>=1.2.1
-pywin32>=306
+reportlab>=4.0.4        # Generación de PDFs ejecutivos
+python-docx>=1.1.0      # Documentos Word para reportes
+fpdf2>=2.7.6            # Alternativa ligera para PDFs
+schedule>=1.2.1         # Tareas programadas (ETL, limpieza)
+pywin32>=306            # Automatización con herramientas de Windows
 
 # 🧠 Cuadernos Jupyter
-notebook>=7.0.6
-jupyterlab>=4.0.7
-ipykernel>=6.26.0
+notebook>=7.0.6         # Entorno interactivo
+jupyterlab>=4.0.7       # Interfaz moderna para notebooks
+ipykernel>=6.26.0       # Núcleo de ejecución para notebooks
 
 # 🧰 Herramientas útiles
-tqdm>=4.66.1
-tabulate>=0.9.0
+tqdm>=4.66.1            # Barras de progreso en scripts
+tabulate>=0.9.0         # Tablas en consola o Markdown
